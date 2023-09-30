@@ -1,0 +1,93 @@
+.main{
+    min-height: 100vh;
+}
+.pad{
+
+}
+.upper{
+    min-height: 15vh;
+    background-color: #eef2f7;
+    padding: 2%;
+}
+.content{
+    min-height: 75vh;
+    background-color: white;
+    padding-left: 30%;
+    padding-top: 6.5%;
+    padding-right: 30%;
+    
+}
+.lower{
+    min-height: 10vh;
+    background-color: #3d3dc6;
+  
+}
+.cardWhite{
+    background-color: white;
+    position: absolute;
+    box-shadow: 5px 5px 10px #f2f2f2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    left: 30%;
+    right: 30%;
+    top:10%;
+    border-radius: .5rem;
+    font-size: 15px;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root{
+    padding-left: 0px!important;
+}
+.css-1tq8nf4-MuiFormControl-root-MuiTextField-root input{
+    width: 3vh!important;
+}
+.mr10{
+    margin-right: 10px;
+}
+.outlineNone:focus-visible{
+outline: none!important;
+box-shadow: none!important;
+}
+@media only screen and (max-width: 767px) {
+    .content{
+        padding-left: 5%!important;
+        padding-right: 5%!important;
+    }
+    .cardWhite{
+        position: relative!important;
+        left: 0%!important;
+        right: 0px!important;
+        top: 0%!important;
+        bottom: 0%!important;
+    }
+    .mtop20{
+        margin-top: 20px!important;
+    }
+    .w100{
+        width: 100%!important;
+        background-color: transparent!important;
+    }
+    .mtop15{
+        margin-top: 15px!important;
+    }
+    .w1001{
+        width: auto!important;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 767px)
+{
+    .content{
+        padding-left: 15%!important;
+        padding-right: 15%!important;
+    }
+    .w100{
+      
+        background-color: transparent!important;
+    }
+    .mtop20{
+        margin-top: 35px!important;
+    }
+   
+}
